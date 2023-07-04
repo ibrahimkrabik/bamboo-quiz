@@ -56,6 +56,9 @@ body {
        display: block;
        margin-bottom: 20px;
 }
+.choose button.hide {
+       display: none;
+}
 /* End Choose */
 /* Start First */
 .first.hide {
@@ -194,7 +197,7 @@ body {
        display: block;
        margin-bottom: 30px;
 }
-.score-page .your-score{
+.score-page .your-score {
        font-size: 40px;
        font-weight: bold;
 }
