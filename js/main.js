@@ -35,33 +35,35 @@ document.querySelectorAll('.choose button').forEach((ele) => {
 buttonTah1.onclick = () => {
        document.querySelector('.choose').classList.add('hide');
        document.querySelector('.first').classList.remove('hide');
-       fetch('/js/tahleel1.json')
-              .then((response) => response.json())
-              .then((data) => {
-                     myData = data;
-                     allQuestion.innerHTML = myData.length;
-                     correctAnswer = myData[i].coorectAnswer;
-                     question.src = myData[i].question;
-                     answers.forEach((element, index) => {
-                            element.innerHTML = myData[i].answers[index];
-                     });
+       async function logging() {
+              const response = await fetch('/js/tahleel1.json');
+              const data = await response.json();
+              myData = data;
+              allQuestion.innerHTML = myData.length;
+              correctAnswer = myData[i].coorectAnswer;
+              question.src = myData[i].question;
+              answers.forEach((element, index) => {
+                     element.innerHTML = myData[i].answers[index];
               });
+       }
+       logging();
 };
 
 buttonTah2.onclick = () => {
        document.querySelector('.choose').classList.add('hide');
        document.querySelector('.first').classList.remove('hide');
-       fetch('/js/tahleel2.json')
-              .then((response) => response.json())
-              .then((data) => {
-                     myData = data;
-                     allQuestion.innerHTML = myData.length;
-                     correctAnswer = myData[i].coorectAnswer;
-                     question.src = myData[i].question;
-                     answers.forEach((element, index) => {
-                            element.innerHTML = myData[i].answers[index];
-                     });
+       async function logging() {
+              const response = await fetch('/js/tahleel2.json');
+              const data = await response.json();
+              myData = data;
+              allQuestion.innerHTML = myData.length;
+              correctAnswer = myData[i].coorectAnswer;
+              question.src = myData[i].question;
+              answers.forEach((element, index) => {
+                     element.innerHTML = myData[i].answers[index];
               });
+       }
+       logging();
 };
 
 function selectAnswer() {
