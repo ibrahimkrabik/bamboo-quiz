@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize File -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome File -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Styling File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="choose">
+            <button id="tahleel-1">التحليل 1</button>
+            <button id="tahleel-2">التحليل 2</button>
+        </div>
+        <div class="first hide">
+            <button>إبدأ الإختبار</button>
+        </div>
+        <div class="seconde hide">
+            <h2>بعض قواعد هذا الإختبار</h2>
+            <div class="rules">
+                <p>1) عند اختيار الإجابة لا تستطيع التراجع عنها</p>
+                <p>2) لا يمكن الخروج عند اجراء الإختبار</p>
+                <p> 3) سوف تحصل على نقطة واحدة عنداختيار إجابة صحيحة</p>
+                <p>4) سيتم إظهار نتيجتك بعد إنتهاء الإختبار</p>
+            </div>
+            <div class="buttons">
+                <button class="continue">إبدا الاختبار</button>
+                <button class="exit">إنهاء الاختبار</button>
+            </div>
+        </div>
+        <div class="main-page hide">
+            <div class="main-quiz">
+                <div class="main-img">
+                    <img src="" alt="question-img">
+                </div>
+                <div class="answers">
+                    <p>الإجابة الأولى</p>
+                    <p>الإجابة الثانية</p>
+                    <p>الإجابة الثالثة</p>
+                    <p>الإجابة الرابعة</p>
+                </div>
+            </div>
+            <div class="question-number">
+                <button class="next hide">السؤال التالي</button>
+                <div><span class="current-question">1</span> من <span class="all-questions">12</span> سؤال</div>
+            </div>
+        </div>
+        <div class="score-page hide">
+            <span class="emojy"></span>
+            <p>نتيجتك هي <span class="your-score"></span></p>
+        </div>
+        <footer>
+            Developed by <a href="https://www.facebook.com/abdalmalik.kattan" target="_blank">Kattan</a> & <a
+                href="https://www.facebook.com/ibrahim.karbik" target="_blank">Karbik</a>
+        </footer>
+    </div>
+    <audio src="assets/success.aac" preload="auto" class="success"></audio>
+    <audio src="assets/fail.wav" preload="auto" class="fail"></audio>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
