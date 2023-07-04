@@ -1,3 +1,737 @@
+const tahleel_1 = [
+       {
+              question: '/t1-images/image-1.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t1-images/image-2.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الرابعة',
+       },
+       {
+              question: '/t1-images/image-3.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-4.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-5.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-6.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-7.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-8.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-9.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-10.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-11.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-12.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-13.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-14.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-15.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-16.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-17.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-18.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-19.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-20.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-21.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-22.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-23.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-24.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-25.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-26.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-27.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-28.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-29.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-30.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-31.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-32.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-33.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-34.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+       {
+              question: '/t1-images/image-35.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثانية',
+       },
+];
+const tahleel_2 = [
+       {
+              question: '/t2-images/image-1.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-2.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-3.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-4.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-5.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-6.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-7.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-8.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-9.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-10.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-11.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-12.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-13.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-14.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-15.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-16.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-17.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-18.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-19.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-20.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-21.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-22.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-23.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-24.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-25.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-26.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-27.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-28.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-29.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-30.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-31.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-32.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-33.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-34.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-35.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-36.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-37.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+       {
+              question: '/t2-images/image-38.png',
+              answers: [
+                     'الإجابة الأولى',
+                     'الإجابة الثانية',
+                     'الإجابة الثالثة',
+                     'الإجابة الرابعة',
+              ],
+              coorectAnswer: 'الإجابة الثالثة',
+       },
+];
 let buttonTah1 = document.querySelector('#tahleel-1');
 let buttonTah2 = document.querySelector('#tahleel-2');
 let question = document.querySelector('.main-quiz img');
@@ -35,35 +769,26 @@ document.querySelectorAll('.choose button').forEach((ele) => {
 buttonTah1.onclick = () => {
        document.querySelector('.choose').classList.add('hide');
        document.querySelector('.first').classList.remove('hide');
-       async function logging() {
-              const response = await fetch('/js/tahleel1.json');
-              const data = await response.json();
-              myData = data;
-              allQuestion.innerHTML = myData.length;
-              correctAnswer = myData[i].coorectAnswer;
-              question.src = myData[i].question;
-              answers.forEach((element, index) => {
-                     element.innerHTML = myData[i].answers[index];
-              });
-       }
-       logging();
+
+       myData = tahleel_1;
+       allQuestion.innerHTML = myData.length;
+       correctAnswer = myData[i].coorectAnswer;
+       question.src = myData[i].question;
+       answers.forEach((element, index) => {
+              element.innerHTML = myData[i].answers[index];
+       });
 };
 
 buttonTah2.onclick = () => {
        document.querySelector('.choose').classList.add('hide');
        document.querySelector('.first').classList.remove('hide');
-       async function logging() {
-              const response = await fetch('/js/tahleel2.json');
-              const data = await response.json();
-              myData = data;
-              allQuestion.innerHTML = myData.length;
-              correctAnswer = myData[i].coorectAnswer;
-              question.src = myData[i].question;
-              answers.forEach((element, index) => {
-                     element.innerHTML = myData[i].answers[index];
-              });
-       }
-       logging();
+       myData = tahleel_2;
+       allQuestion.innerHTML = myData.length;
+       correctAnswer = myData[i].coorectAnswer;
+       question.src = myData[i].question;
+       answers.forEach((element, index) => {
+              element.innerHTML = myData[i].answers[index];
+       });
 };
 
 function selectAnswer() {
