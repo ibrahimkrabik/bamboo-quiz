@@ -542,16 +542,6 @@ const tahleel_2 = [
               coorectAnswer: 'الإجابة الثالثة',
        },
        {
-              question: 'images/image-t2-20.png',
-              answers: [
-                     'الإجابة الأولى',
-                     'الإجابة الثانية',
-                     'الإجابة الثالثة',
-                     'الإجابة الرابعة',
-              ],
-              coorectAnswer: 'الإجابة الثالثة',
-       },
-       {
               question: 'images/image-t2-21.png',
               answers: [
                      'الإجابة الأولى',
