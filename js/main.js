@@ -529,7 +529,7 @@ const tahleel_2 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الأولى',
        },
        {
               question: 'images/image-t2-19.png',
@@ -731,7 +731,6 @@ const tahleel_2 = [
               ],
               coorectAnswer: 'الإجابة الأولى',
        },
-       
 ];
 let buttonTah1 = document.querySelector('#tahleel-1');
 let buttonTah2 = document.querySelector('#tahleel-2');
@@ -748,6 +747,7 @@ let myData;
 let currentQuestion = document.querySelector('.current-question');
 let allQuestion = document.querySelector('.all-questions');
 let nextQuestion = document.querySelector('.next');
+let flag = false;
 currentQuestion.innerHTML = i + 1;
 
 document.querySelector('.first button').onclick = () => {
@@ -795,31 +795,38 @@ buttonTah2.onclick = () => {
 function selectAnswer() {
        answers.forEach((element) => {
               element.onclick = () => {
-                     nextQuestion.classList.remove('hide');
-                     myAnswer = element.innerHTML;
-                     if (myAnswer == correctAnswer) {
-                            score++;
-                            answers.forEach((ele) => {
-                                   if (ele.innerHTML == myAnswer) {
-                                          ele.classList.add('true');
-                                   }
-                            });
-                            successSong.play();
-                     } else {
-                            answers.forEach((ele) => {
-                                   if (ele.innerHTML == myAnswer) {
-                                          ele.classList.add('false');
-                                   } else if (ele.innerHTML == correctAnswer) {
-                                          ele.classList.add('true');
-                                   }
-                            });
-                            failSong.play();
+                     if (flag === false) {
+                            flag = true;
+                            console.log(flag);
+                            nextQuestion.classList.remove('hide');
+                            myAnswer = element.innerHTML;
+                            if (myAnswer == correctAnswer) {
+                                   score++;
+                                   answers.forEach((ele) => {
+                                          if (ele.innerHTML == myAnswer) {
+                                                 ele.classList.add('true');
+                                          }
+                                   });
+                                   successSong.play();
+                            } else {
+                                   answers.forEach((ele) => {
+                                          if (ele.innerHTML == myAnswer) {
+                                                 ele.classList.add('false');
+                                          } else if (
+                                                 ele.innerHTML == correctAnswer
+                                          ) {
+                                                 ele.classList.add('true');
+                                          }
+                                   });
+                                   failSong.play();
+                            }
                      }
               };
        });
 }
 selectAnswer();
 function nextQuestionIs() {
+       flag = false;
        answers.forEach((ele) => {
               ele.classList.remove('false');
               ele.classList.remove('true');
