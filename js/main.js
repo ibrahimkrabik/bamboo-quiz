@@ -529,7 +529,7 @@ const tahleel_2 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الأولى',
+              coorectAnswer: 'الإجابة الثانية',
        },
        {
               question: 'images/image-t2-19.png',
