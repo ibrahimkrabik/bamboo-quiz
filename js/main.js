@@ -7,7 +7,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثالثة',
+              coorectAnswer: 'الإجابة الأولى',
        },
        {
               question: 'images/image-t1-2.png',
@@ -27,18 +27,9 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الرابعة',
        },
-       {
-              question: 'images/image-t1-4.png',
-              answers: [
-                     'الإجابة الأولى',
-                     'الإجابة الثانية',
-                     'الإجابة الثالثة',
-                     'الإجابة الرابعة',
-              ],
-              coorectAnswer: 'الإجابة الثانية',
-       },
+
        {
               question: 'images/image-t1-5.png',
               answers: [
@@ -47,7 +38,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الرابعة',
        },
        {
               question: 'images/image-t1-6.png',
@@ -57,7 +48,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الثالثة',
        },
        {
               question: 'images/image-t1-7.png',
@@ -67,7 +58,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الرابعة',
        },
        {
               question: 'images/image-t1-8.png',
@@ -77,7 +68,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الرابعة',
        },
        {
               question: 'images/image-t1-9.png',
@@ -87,7 +78,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الرابعة',
        },
        {
               question: 'images/image-t1-10.png',
@@ -107,7 +98,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الثالثة',
        },
        {
               question: 'images/image-t1-12.png',
@@ -127,7 +118,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الرابعة',
        },
        {
               question: 'images/image-t1-14.png',
@@ -137,7 +128,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الثالثة',
        },
        {
               question: 'images/image-t1-15.png',
@@ -147,7 +138,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الثالثة',
        },
        {
               question: 'images/image-t1-16.png',
@@ -157,7 +148,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الرابعة',
        },
        {
               question: 'images/image-t1-17.png',
@@ -167,7 +158,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الرابعة',
        },
        {
               question: 'images/image-t1-18.png',
@@ -187,7 +178,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الثالثة',
        },
        {
               question: 'images/image-t1-20.png',
@@ -197,7 +188,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الأولى',
        },
        {
               question: 'images/image-t1-21.png',
@@ -207,7 +198,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الرابعة',
        },
        {
               question: 'images/image-t1-22.png',
@@ -217,7 +208,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الرابعة',
        },
        {
               question: 'images/image-t1-23.png',
@@ -227,7 +218,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الرابعة',
        },
        {
               question: 'images/image-t1-24.png',
@@ -237,7 +228,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الأولى',
        },
        {
               question: 'images/image-t1-25.png',
@@ -247,7 +238,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الثالثة',
        },
        {
               question: 'images/image-t1-26.png',
@@ -277,7 +268,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الرابعة',
        },
        {
               question: 'images/image-t1-29.png',
@@ -287,7 +278,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الرابعة',
        },
        {
               question: 'images/image-t1-30.png',
@@ -317,7 +308,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الثالثة',
        },
        {
               question: 'images/image-t1-33.png',
@@ -327,7 +318,7 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الأولى',
        },
        {
               question: 'images/image-t1-34.png',
@@ -337,18 +328,9 @@ const tahleel_1 = [
                      'الإجابة الثالثة',
                      'الإجابة الرابعة',
               ],
-              coorectAnswer: 'الإجابة الثانية',
+              coorectAnswer: 'الإجابة الأولى',
        },
-       {
-              question: 'images/image-t1-35.png',
-              answers: [
-                     'الإجابة الأولى',
-                     'الإجابة الثانية',
-                     'الإجابة الثالثة',
-                     'الإجابة الرابعة',
-              ],
-              coorectAnswer: 'الإجابة الثانية',
-       },
+       
 ];
 const tahleel_2 = [
        {
